@@ -3,7 +3,9 @@ jQuery.extend({
     /**
      * Takes a script decodes the base64 src, puts it into the body of the script tag,
      * then puts it in whatever parent specified.
-     *
+     * 
+     * @TODO Add more configuration options (append vs prepend etc)
+     * 
      * @requires https://plugins.jquery.com/base64/
      *
      * @param  {Object} script The script tag that should be manipulated
